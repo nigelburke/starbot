@@ -20,7 +20,7 @@ bot.message((msg) => {
     icon_emoji: config('ICON_EMOJI'),
     channel: msg.channel,
     username: 'Starbot',
-    text: `beep boop: I hear you loud and clear!"`
+    text: `beep boop: I hear you loud and slow!"`
   }, (err, data) => {
     if (err) throw err
 
